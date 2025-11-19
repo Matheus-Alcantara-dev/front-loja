@@ -1,0 +1,10 @@
+<h2>Ofertas do Dia 🔥</h2>
+
+<ul>
+  @for (produto of products; track produto.name) {
+    <li>
+      <strong>{{ produto.name }}</strong> 
+      - R$ {{ produto.price }}
+    </li>
+  }
+</ul>
